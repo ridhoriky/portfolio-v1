@@ -74,7 +74,7 @@ const ContactSection: React.FC = () => {
           >
             <h2 className="text-lg font-semibold mb-2">Email Me</h2>
             <a
-              href={`mailto:${import.meta.env.NEXT_PUBLIC_EMAIL}`}
+              href={`mailto:${import.meta.env.VITE_PUBLIC_EMAIL}`}
               className="text-gray-600 hover:text-blue dark:text-light dark:hover:text-blue"
             >
               @ridhoriky
