@@ -48,7 +48,7 @@ const Header: React.FC = () => {
         <div className="text-xl font-semibold">
           <span
             onClick={() => moveSection("#hero")}
-            className="flex items-center space-x-2 hover:text-blue "
+            className="flex items-center space-x-2 hover:text-blue cursor-pointer"
           >
             <img
               src={logo}
@@ -65,7 +65,7 @@ const Header: React.FC = () => {
             <span
               key={item.id}
               onClick={() => moveSection(item.href)}
-              className=" hover:text-blue"
+              className=" hover:text-blue cursor-pointer"
             >
               {item.name}
             </span>
@@ -99,7 +99,7 @@ const Header: React.FC = () => {
                 key={item.id}
                 // href={item.href}
                 onClick={() => moveSection(item.href)}
-                className="block hover:text-blue"
+                className="block hover:text-blue cursor-pointer"
               >
                 {item.name}
               </span>
